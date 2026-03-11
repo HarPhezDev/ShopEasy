@@ -1,0 +1,85 @@
+export const shoeProducts = [
+  // ---------------- NIKE (10) ----------------
+  { id: 1, brand: "Nike", category: "shoes", title: "Air Max 270", price: 120, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff", desc: "Responsive Air cushioning.", inStock: true },
+  { id: 2, brand: "Nike", category: "shoes", title: "Air Force 1", price: 130, image: "https://images.unsplash.com/photo-1597045566677-8cf032ed6634", desc: "Streetwear classic.", inStock: true },
+  { id: 3, brand: "Nike", category: "shoes", title: "Dunk Low", price: 110, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "Modern retro style.", inStock: true },
+  { id: 4, brand: "Nike", category: "shoes", title: "Pegasus 40", price: 125, image: "https://images.footballfanatics.com/tennessee-titans/unisex-nike-anthracite-tennessee-titans-zoom-pegasus-40-running-shoe_ss5_p-5261364+pv-1+u-xmtlafewcpap4lfs7egm+v-rbpn5owhq7btguunzfox.jpg?_hv=2&w=1018", desc: "Everyday running comfort.", inStock: true },
+  { id: 5, brand: "Nike", category: "shoes", title: "React Infinity", price: 140, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Smooth ride feel.", inStock: false },
+  { id: 6, brand: "Nike", category: "shoes", title: "Air Max Plus", price: 150, image: "https://images.unsplash.com/photo-1584735175097-719d848f8449", desc: "Bold design.", inStock: true },
+  { id: 7, brand: "Nike", category: "shoes", title: "ZoomX Vaporfly", price: 220, image: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de", desc: "Elite performance.", inStock: true },
+  { id: 8, brand: "Nike", category: "shoes", title: "Blazer Mid", price: 100, image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86", desc: "Vintage basketball look.", inStock: true },
+  { id: 9, brand: "Nike", category: "shoes", title: "Air Max SC", price: 90, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Lightweight comfort.", inStock: false },
+  { id: 10, brand: "Nike", category: "shoes", title: "Court Vision", price: 85, image: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb", desc: "Clean court style.", inStock: true },
+
+  // ---------------- ADIDAS (10) ----------------
+  { id: 11, brand: "Adidas", category: "shoes", title: "Ultraboost Light", price: 190, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Energy return.", inStock: true },
+  { id: 12, brand: "Adidas", category: "shoes", title: "Samba OG", price: 100, image: "https://images.unsplash.com/photo-1695055450672-06399088734e", desc: "Timeless style.", inStock: true },
+  { id: 13, brand: "Adidas", category: "shoes", title: "NMD R1", price: 140, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Urban comfort.", inStock: false },
+  { id: 14, brand: "Adidas", category: "shoes", title: "Gazelle", price: 95, image: "https://images.unsplash.com/photo-1600180758894-3d8f9e6b9c5c", desc: "Classic suede look.", inStock: true },
+  { id: 15, brand: "Adidas", category: "shoes", title: "Superstar", price: 110, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Iconic shell toe.", inStock: true },
+  { id: 16, brand: "Adidas", category: "shoes", title: "Forum Low", price: 120, image: "https://images.unsplash.com/photo-1605348532760-6753d2c43329", desc: "Retro basketball.", inStock: true },
+  { id: 17, brand: "Adidas", category: "shoes", title: "ZX 2K", price: 130, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "Modern comfort.", inStock: true },
+  { id: 18, brand: "Adidas", category: "shoes", title: "Adizero", price: 160, image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", desc: "Speed performance.", inStock: false },
+  { id: 19, brand: "Adidas", category: "shoes", title: "Terrex Trail", price: 150, image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77", desc: "Outdoor grip.", inStock: true },
+  { id: 20, brand: "Adidas", category: "shoes", title: "Lite Racer", price: 80, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "Light everyday wear.", inStock: true },
+
+  // ---------------- NEW BALANCE (10) ----------------
+  { id: 21, brand: "New Balance", category: "shoes", title: "NB 550", price: 110, image: "https://images.unsplash.com/photo-1636138350812-706f9771149e", desc: "Retro basketball style.", inStock: true },
+  { id: 22, brand: "New Balance", category: "shoes", title: "NB 9060", price: 160, image: "https://images.unsplash.com/photo-1678119430541-e1239c080036", desc: "Futuristic comfort.", inStock: true },
+  { id: 23, brand: "New Balance", category: "shoes", title: "NB 574", price: 95, image: "https://images.footballfanatics.com/tennessee-titans/unisex-nike-anthracite-tennessee-titans-zoom-pegasus-40-running-shoe_ss5_p-5261364+pv-1+u-xmtlafewcpap4lfs7egm+v-rbpn5owhq7btguunzfox.jpg?_hv=2&w=1018", desc: "Everyday classic.", inStock: true },
+  { id: 24, brand: "New Balance", category: "shoes", title: "NB 327", price: 120, image: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb", desc: "Modern retro design.", inStock: false },
+  { id: 25, brand: "New Balance", category: "shoes", title: "NB 2002R", price: 150, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Premium comfort.", inStock: true },
+  { id: 26, brand: "New Balance", category: "shoes", title: "Fresh Foam X", price: 140, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Soft cushioning.", inStock: true },
+  { id: 27, brand: "New Balance", category: "shoes", title: "NB 990v6", price: 200, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Made in USA comfort.", inStock: true },
+  { id: 28, brand: "New Balance", category: "shoes", title: "FuelCell Rebel", price: 130, image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", desc: "Speed runner.", inStock: false },
+  { id: 29, brand: "New Balance", category: "shoes", title: "NB 650", price: 125, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "High-top retro.", inStock: true },
+  { id: 30, brand: "New Balance", category: "shoes", title: "NB 480", price: 105, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "Court style.", inStock: true },
+
+  // ---------------- JORDAN (10) ----------------
+  { id: 31, brand: "Jordan", category: "shoes", title: "Air Jordan 1 High", price: 180, image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", desc: "Sneaker history icon.", inStock: true },
+  { id: 32, brand: "Jordan", category: "shoes", title: "Jordan 4 Retro", price: 210, image: "https://images.unsplash.com/photo-1605348532760-6753d2c43329", desc: "Classic performance.", inStock: true },
+  { id: 33, brand: "Jordan", category: "shoes", title: "Jordan 6", price: 200, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Air comfort tech.", inStock: false },
+  { id: 34, brand: "Jordan", category: "shoes", title: "Jordan 11 Retro", price: 220, image: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de", desc: "Luxury on court.", inStock: true },
+  { id: 35, brand: "Jordan", category: "shoes", title: "Jordan 3 Retro", price: 190, image: "https://images.unsplash.com/photo-1584735175097-719d848f8449", desc: "Elephant print style.", inStock: true },
+  { id: 36, brand: "Jordan", category: "shoes", title: "Jordan 5 Retro", price: 210, image: "https://images.unsplash.com/photo-1613839817782-6c41fef752ff?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", desc: "Reflective tongue.", inStock: true },
+  { id: 37, brand: "Jordan", category: "shoes", title: "Jordan 12", price: 230, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "Rising Sun design.", inStock: true },
+  { id: 38, brand: "Jordan", category: "shoes", title: "Jordan 8", price: 200, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Cross straps.", inStock: false },
+  { id: 39, brand: "Jordan", category: "shoes", title: "Jordan 13", price: 215, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "Panther paw outsole.", inStock: true },
+  { id: 40, brand: "Jordan", category: "shoes", title: "Jordan 34", price: 250, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Elite performance.", inStock: true },
+
+  // ---------------- VANS (10) ----------------
+  { id: 41, brand: "Vans", category: "shoes", title: "Old Skool", price: 70, image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77", desc: "Iconic skate classic.", inStock: true },
+  { id: 42, brand: "Vans", category: "shoes", title: "Sk8-Hi", price: 85, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "High top style.", inStock: true },
+  { id: 43, brand: "Vans", category: "shoes", title: "Era", price: 65, image: "https://images.unsplash.com/photo-1580734074451-7a754f9997a4", desc: "Simple low silhouette.", inStock: false },
+  { id: 44, brand: "Vans", category: "shoes", title: "Slip-On", price: 60, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Easy everyday wear.", inStock: true },
+  { id: 45, brand: "Vans", category: "shoes", title: "Half Cab", price: 75, image: "https://images.unsplash.com/photo-1600180758894-3d8f9e6b9c5c", desc: "Skate legend.", inStock: true },
+  { id: 46, brand: "Vans", category: "shoes", title: "Authentic", price: 55, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Original staple.", inStock: true },
+  { id: 47, brand: "Vans", category: "shoes", title: "Chukka Low", price: 80, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Casual comfort.", inStock: false },
+  { id: 48, brand: "Vans", category: "shoes", title: "Skate Classic", price: 78, image: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de", desc: "Court style skate.", inStock: true },
+  { id: 49, brand: "Vans", category: "shoes", title: "Rowan Pro", price: 95, image: "https://images.unsplash.com/photo-1584735175097-719d848f8449", desc: "Pro performance.", inStock: true },
+  { id: 50, brand: "Vans", category: "shoes", title: "UltraRange", price: 105, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "All terrain comfort.", inStock: true },
+
+  // ---------------- PUMA (10) ----------------
+  { id: 51, brand: "Puma", category: "shoes", title: "RS-X Reinvention", price: 130, image: "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6", desc: "Bold retro.", inStock: true },
+  { id: 52, brand: "Puma", category: "shoes", title: "Suede Classic", price: 90, image: "https://images.unsplash.com/photo-1600180758894-3d8f9e6b9c5c", desc: "Street staple.", inStock: true },
+  { id: 53, brand: "Puma", category: "shoes", title: "Cali Sport", price: 95, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Retro low look.", inStock: false },
+  { id: 54, brand: "Puma", category: "shoes", title: "Future Rider", price: 100, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Casual comfort.", inStock: true },
+  { id: 55, brand: "Puma", category: "shoes", title: "MB.01", price: 140, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "LaMelo ball signature.", inStock: true },
+  { id: 56, brand: "Puma", category: "shoes", title: "Clyde Hardwood", price: 120, image: "https://images.unsplash.com/photo-1584735175097-719d848f8449", desc: "Classic hardwood feel.", inStock: true },
+  { id: 57, brand: "Puma", category: "shoes", title: "Velocity Nitro", price: 150, image: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de", desc: "Running performance.", inStock: true },
+  { id: 58, brand: "Puma", category: "shoes", title: "Leadcat Slide", price: 45, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "Slide comfort.", inStock: true },
+  { id: 59, brand: "Puma", category: "shoes", title: "Caven", price: 80, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "Everyday casual.", inStock: false },
+  { id: 60, brand: "Puma", category: "shoes", title: "Tazon 6", price: 110, image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", desc: "Training essential.", inStock: true },
+
+  // ---------------- CONVERSE (10) ----------------
+  { id: 61, brand: "Converse", category: "shoes", title: "Chuck Taylor High", price: 75, image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5", desc: "Classic canvas.", inStock: true },
+  { id: 62, brand: "Converse", category: "shoes", title: "Run Star Motion", price: 110, image: "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb", desc: "Platform modern look.", inStock: true },
+  { id: 63, brand: "Converse", category: "shoes", title: "Chuck 70", price: 85, image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a", desc: "Vintage upgrade.", inStock: false },
+  { id: 64, brand: "Converse", category: "shoes", title: "Courtlandt", price: 95, image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb", desc: "Clean court style.", inStock: true },
+  { id: 65, brand: "Converse", category: "shoes", title: "Pro Leather", price: 120, image: "https://images.unsplash.com/photo-1584735175097-719d848f8449", desc: "Premium retro.", inStock: true },
+  { id: 66, brand: "Converse", category: "shoes", title: "Star Chevron", price: 90, image: "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6", desc: "Bold side stripe.", inStock: true },
+  { id: 67, brand: "Converse", category: "shoes", title: "All Star Slide", price: 50, image: "https://images.unsplash.com/photo-1549298916-b41d501d3772", desc: "Comfort slide.", inStock: true },
+  { id: 68, brand: "Converse", category: "shoes", title: "Chuck Taylor Boot", price: 130, image: "https://images.unsplash.com/photo-1595341888016-a392ef81b7de", desc: "High-top rugged.", inStock: true },
+  { id: 69, brand: "Converse", category: "shoes", title: "One Star Pro", price: 100, image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", desc: "Skate collaboration.", inStock: false },
+  { id: 70, brand: "Converse", category: "shoes", title: "Chuck Taylor Flatform", price: 115, image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519", desc: "Platform flare.", inStock: true }
+];
