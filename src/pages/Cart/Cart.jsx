@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ShopContext } from '../../context/ShopContext';
+import { ShopContext } from '../../Context/ShopContext';
 import { Link } from 'react-router-dom';
 import { FiTrash2, FiShoppingBag, FiArrowLeft, FiPlus, FiMinus } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
