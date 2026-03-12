@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useContext } from "react";
 import { Link, useLocation } from "react-router-dom"; 
 import Logo from "../img/Logo.png";
-import { ShopContext } from "../context/ShopContext.jsx"; 
+import { ShopContext } from "../Context/ShopContext.jsx"; 
 import { motion, AnimatePresence } from "framer-motion";
 import {
     FiSearch,
