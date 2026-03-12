@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import { applianceProducts } from "./applianceProducts.js"; 
 import { FiSearch, FiX, FiPlus, FiMinus, FiArrowRight, FiHeart, FiShoppingCart, FiCheck } from "react-icons/fi";
-import { ShopContext } from "../../../context/ShopContext.jsx";
+import { ShopContext } from "../../../Context/ShopContext.jsx";
 
 const categories = [
   "All", "Kettle", "Washing Machine", "Microwave Oven", "Refrigerator", 

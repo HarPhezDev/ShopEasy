@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion'; // Ensure framer-motion is installed
-import { ShopProvider } from './Context/ShopContext.jsx'; 
+import { AnimatePresence } from 'framer-motion'; 
+import { ShopProvider } from './Context/ShopContext.jsx'
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -25,7 +25,7 @@ import Payment from './pages/Payment/Payment.jsx';
 import Privacy from './pages/PrivacyPolicy.jsx'; 
 import BrandLoader from './BrandLoader.jsx'; 
 
-// Wrapper to handle the loading logic
+
 const PageWrapper = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
   const location = useLocation();
