@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { ShopContext } from '../../context/ShopContext';
+import { ShopContext } from '../../Context/ShopContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiLock, FiCheckCircle, FiCreditCard, FiCopy, FiInfo } from 'react-icons/fi';
 
