@@ -15,8 +15,6 @@ const Cart = () => {
 
     const shopEasyColor = "#EF523E";
 
-    // Fix 1: Ensure total is never negative by using Math.max or your context helper
-    // We multiply by 1500 for your Naira conversion rate
     const total = Math.max(0, getCartTotal() * 1500);
 
     if (!context || Object.keys(context).length === 0) {
@@ -150,7 +148,7 @@ const Cart = () => {
                             </div>
                         </div>
                         <Link
-                            to="/payment" // Ensure this matches the path in your App.js routes
+                            to="/payment" 
                             className="w-full py-5 rounded-[2rem] font-bold shadow-xl transition-all active:scale-95 hover:brightness-110 flex items-center justify-center text-white"
                             style={{ backgroundColor: shopEasyColor }}
                         >
