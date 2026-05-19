@@ -1,8 +1,6 @@
 import React, { createContext, useState, useEffect } from 'react';
 
 export const ShopContext = createContext();
-
-
 export const ShopProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
   const [wishlist, setWishlist] = useState([]);

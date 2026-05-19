@@ -15,7 +15,7 @@ const Cart = () => {
 
     const shopEasyColor = "#EF523E";
 
-    const total = Math.max(0, getCartTotal() * 1500);
+    const total = Math.max(0, getCartTotal() * 1500);   
 
     if (!context || Object.keys(context).length === 0) {
         return <div className="mt-40 text-center text-gray-400 font-bold">Connecting to Store...</div>;
