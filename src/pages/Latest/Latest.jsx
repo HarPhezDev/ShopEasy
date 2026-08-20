@@ -28,7 +28,7 @@ const Latest = ({ allProducts = [], addToCart }) => {
   return (
     <div className="min-h-screen mt-20 bg-white pt-28 pb-20 text-slate-900 relative">
  
-      {/* --- SUCCESS TOAST NOTIFICATION --- */}
+      {/* --- SUCCESS TOAST NOTIFICATION MODAL--- */}
       <AnimatePresence>
         {addedItem && (
           <motion.div 
