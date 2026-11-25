@@ -32,7 +32,7 @@ const Cart = () => {
                     <FiShoppingBag size={80} className="text-gray-200" />
                 </motion.div>
                 <h2 className="text-3xl font-black text-gray-900 mb-2">Your cart is empty</h2>
-                <p className="text-gray-500 mb-8 max-w-xs mx-auto">Looks like you haven't discovered our premium collection yet.</p>
+                <p className="text-gray-500 mb-8 max-w-xs mx-auto">Looks like you haven't discovered our premium collection yet..</p>
                 <Link
                     to="/products"
                     className="px-10 py-4 rounded-2xl text-white font-bold transition-all active:scale-95 shadow-xl shadow-red-100"
